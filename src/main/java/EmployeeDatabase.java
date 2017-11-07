@@ -50,7 +50,7 @@ public class EmployeeDatabase {
      * Consider both a recursive and an iterative solution to this problem.
      *
      * @param employee name of the employee
-     * @return int
+     * @return int hello
      */
     public int countManagersAbove(final Employee employee) {
         if (employee.getManager() == "") {
